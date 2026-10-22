@@ -1,18 +1,16 @@
-# <Your product name>
-
-> Fill this top section from your Examate project card on Day 1. Replace every line in angle brackets.
+# <SafeShift>
 
 ## Problem
-<3–5 sentences: who struggles with what today, and what your product changes.>
+<Supervisors need safety procedures (lockout, machine guarding, chemical handling) during a shift, from thick safety manuals. A slow tool is useless on the shop floor, and nobody knows which part of the system makes it slow.>
 
 ## Who it is for
-<One or two real user types, for example "compliance officer at a gold-loan NBFC in Coimbatore".>
+<Safety officer at a Sriperumbudur contract manufacturing company running several client production lines>
 
 ## Signature feature
-<One sentence: the feature only your product has.>
+<Latency receipt under each answer showing time spent in each stage.>
 
 ## Hardest problem (my interview story)
-<In your own words, from your project card.>
+<Observability and latency budget. Every request is traced with OpenTelemetry spans for embedding, search, re-rank and generation, and dashboards show p50/p95 per stage. The student sets a 4-second p95 budget and shows which changes brought each stage under its share.>
 
 ## Dataset
 | Source | Link | Documents | Pages | Licence / terms |
