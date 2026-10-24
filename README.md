@@ -1,16 +1,16 @@
 # <SafeShift>
 
 ## Problem
-<Supervisors need safety procedures (lockout, machine guarding, chemical handling) during a shift, from thick safety manuals. A slow tool is useless on the shop floor, and nobody knows which part of the system makes it slow.>
+Supervisors need safety procedures (lockout, machine guarding, chemical handling) during a shift, from thick safety manuals. A slow tool is useless on the shop floor, and nobody knows which part of the system makes it slow.
 
 ## Who it is for
-<Safety officer at a Sriperumbudur contract manufacturing company running several client production lines>
+Safety officer at a Sriperumbudur contract manufacturing company running several client production lines.
 
 ## Signature feature
-<Latency receipt under each answer showing time spent in each stage.>
+Latency receipt under each answer showing time spent in each stage.
 
 ## Hardest problem (my interview story)
-<Observability and latency budget. Every request is traced with OpenTelemetry spans for embedding, search, re-rank and generation, and dashboards show p50/p95 per stage. The student sets a 4-second p95 budget and shows which changes brought each stage under its share.>
+Observability and latency budget. Every request is traced with OpenTelemetry spans for embedding, search, re-rank and generation, and dashboards show p50/p95 per stage. The student sets a 4-second p95 budget and shows which changes brought each stage under its share.
 
 ## Dataset
 | Source | Link | Documents | Pages | Licence / terms |
