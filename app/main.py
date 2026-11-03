@@ -4,7 +4,7 @@ from fastapi import Depends, FastAPI
 
 from app.config import Settings, get_settings
 
-app = FastAPI(title="Examate RAG starter", version="0.1.0")
+app = FastAPI(title="SafeShift", version="0.1.0")
 
 SettingsDep = Annotated[Settings, Depends(get_settings)]
 
