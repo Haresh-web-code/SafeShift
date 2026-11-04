@@ -14,14 +14,17 @@ Commit after each class. Create a weekly tag after the corresponding work is com
 
 ## Week 2 — in progress
 
-Week 2 work already present in the local working tree is being preserved and excluded from the Week 1 commit. The Week 2 items below have not been verified as complete.
+Week 2 implementation remains local; do not include it in the Week 1 commit.
 
-- [ ] `POST /chat` calls an LLM and returns structured JSON
-- [ ] Streaming, timeouts, retry, and a fallback model
-- [ ] Cost log and `GET /usage`
-- [ ] Docker Compose (API + Postgres/pgvector) runs
-- [ ] CI green and a deployed live link in README
-- [ ] Create and push the `week-2` tag
+- [x] `POST /chat`, `POST /chat/stream`, `GET /health`, and `GET /usage` implemented; offline tests use mocked Gemini
+- [x] OSHA citations, empty-retrieval responses, safe Gemini fallback, bounded retries/deadlines, fallback model, and no replay after partial stream output tested locally
+- [x] Local `ruff check .` and `python -m pytest -q` pass (27 tests, including a mocked API-level Gemini 503 fallback)
+- [x] Docker Compose configuration parses; image builds; API container is healthy, runs as non-root, and `/health`, `/usage`, and in-container sample retrieval were checked on 2026-11-04
+- [x] GitHub Actions uses Python 3.12 and full-project Ruff/pytest; a hosted run succeeded for commit `c28e9a2` (current uncommitted changes are not covered by that run)
+- [x] Container startup, health check, retrieval sample inclusion, and deployment preparation documented
+- [ ] Deploy the application and add a live link to README (not deployed; requires owner approval and credentials/budget)
+- [ ] Start the optional PostgreSQL/pgvector profile (configuration parses, but the database password secret file must be created manually; database is not used by retrieval)
+- [ ] Create and push the `week-2` tag (push requires owner confirmation)
 
 ## Week 3
 

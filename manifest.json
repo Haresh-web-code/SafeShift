@@ -1,0 +1,29 @@
+{
+  "documents": [
+    {
+      "id": "osha_3120",
+      "title": "OSHA Lockout/Tagout",
+      "filename": "osha_3120.pdf",
+      "source": "OSHA",
+      "pages": 45,
+      "topics": [
+        "lockout",
+        "tagout",
+        "hazardous energy control"
+      ]
+    },
+    {
+      "id": "osha_3075",
+      "title": "OSHA Electrical Safety",
+      "filename": "osha_3075.pdf",
+      "source": "OSHA",
+      "pages": 71,
+      "topics": [
+        "electrical hazards",
+        "electric shock",
+        "grounding",
+        "electrical safety"
+      ]
+    }
+  ]
+}

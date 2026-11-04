@@ -9,4 +9,6 @@ __pycache__/
 logs/
 data/raw/
 *.sqlite
+chunks.jsonl
+.secrets/
 .DS_Store
